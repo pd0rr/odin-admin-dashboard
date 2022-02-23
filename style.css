@@ -35,9 +35,14 @@ nav li {
 
 header {
     background-color: white;
+    padding: 10px 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-header .top-row {
+header .top-row, header .bottom-row {
     display: flex;
     justify-content: space-between;
 }
@@ -52,4 +57,20 @@ header .top-row .right {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    gap: 15px;
+}
+
+header .bottom-row .left {
+    display: flex;
+}
+
+header .bottom-row .right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+header .bottom-row .right button {
+    height: 2rem;
+    width: 6rem;
 }
