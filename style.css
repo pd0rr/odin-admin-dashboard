@@ -36,3 +36,20 @@ nav li {
 header {
     background-color: white;
 }
+
+header .top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .top-row .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header .top-row .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
