@@ -4,6 +4,8 @@
 }
 
 body {
+    background-color: lightgrey;
+
     display: grid;
     grid-template-rows: 1fr 4fr;
     grid-template-columns: 1fr 4fr;
@@ -11,11 +13,26 @@ body {
 }
 
 nav {
-    background-color: aqua;
+    background-color: #35aeff;
+    color: white;
+    font-weight: bold;
+
     grid-column: 1;
     grid-row: 1 / -1;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
-main {
-    background-color: lightgrey;
+nav h1 {
+    padding: 15px;
+}
+
+nav li {
+    padding: 5px 0;
+}
+
+header {
+    background-color: white;
 }
