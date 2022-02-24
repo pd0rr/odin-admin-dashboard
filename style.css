@@ -119,8 +119,34 @@ section.projects .card .icons {
     right: 20px;
 }
 
+section.announcements {
+    display: flex;
+    flex-direction: column;
+}
+
 section.announcements .container {
     background-color: white;
+    margin-top: 10px;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: lightgrey 3px 3px 5px 0px; 
+
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.announcements .container p {
+    color: grey;
+    font-size: 12px;
+}
+
+section.announcements .container hr {
+    border: none;
+    background-color: lightgrey;
+    height: 1px;
 }
 
 section.trending {
