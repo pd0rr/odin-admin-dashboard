@@ -74,6 +74,7 @@ header input[type=search] {
     background-color: rgb(226,232,240);
     height: 2rem;
     width: 40vw;
+    padding: 10px;
 }
 
 header .top-row, header .bottom-row {
