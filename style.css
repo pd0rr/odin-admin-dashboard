@@ -29,6 +29,14 @@ nav {
 
 nav h1 {
     padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav h1 svg {
+    height: 3rem;
+    width: auto;
 }
 
 nav li {
