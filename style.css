@@ -69,11 +69,16 @@ header .bottom-row .left {
 
 header .bottom-row .right {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
 }
 
 header .bottom-row .right button {
+    background-color: rgb(25,146,212);
+    border: none;
+    border-radius: 50vh;
+    color: white;
+    font-weight: bold;
     height: 2rem;
     width: 6rem;
 }
