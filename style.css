@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: rgb(236, 236, 236);
 
     display: grid;
     grid-template-rows: 10rem 1fr;
@@ -23,6 +23,8 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+    z-index: 1;
 }
 
 nav h1 {
@@ -36,6 +38,7 @@ nav li {
 header {
     background-color: white;
     padding: 10px 15px;
+    box-shadow: grey 0px 0px 5px;
 
     display: flex;
     flex-direction: column;
@@ -103,6 +106,7 @@ section.projects .card {
     background-color: white;
     border-radius: 8px;
     border-left: 8px solid rgb(235, 172, 0);
+    box-shadow: lightgrey 3px 3px 5px 0px; 
 
     position: relative;
     padding: 2rem 1rem 4rem 1rem;
