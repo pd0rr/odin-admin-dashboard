@@ -101,6 +101,14 @@ section.projects .container {
 
 section.projects .card {
     background-color: white;
+    position: relative;
+    padding: 20px;
+}
+
+section.projects .card .icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 
 section.announcements {
