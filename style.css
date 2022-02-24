@@ -105,7 +105,7 @@ section.projects .card {
     border-left: 8px solid rgb(235, 172, 0);
 
     position: relative;
-    padding: 20px;
+    padding: 2rem 1rem 4rem 1rem;
 }
 
 section.projects .card .icons {
