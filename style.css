@@ -101,6 +101,9 @@ section.projects .container {
 
 section.projects .card {
     background-color: white;
+    border-radius: 8px;
+    border-left: 8px solid rgb(235, 172, 0);
+
     position: relative;
     padding: 20px;
 }
