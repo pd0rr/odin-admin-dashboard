@@ -152,6 +152,10 @@ section.projects .card {
     padding: 2rem 1rem 4rem 1rem;
 }
 
+section.projects .card p {
+    color: grey;
+}
+
 section.projects .card .icons {
     position: absolute;
     bottom: 20px;
