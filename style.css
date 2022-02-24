@@ -225,14 +225,23 @@ section.trending .container {
     background-color: white;
     border-radius: 10px;
     box-shadow: lightgrey 3px 3px 5px 0px;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1.5rem;
 
     flex-grow: 1;
 
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 section.trending .container section img {
+    height: 3rem;
+    border-radius: 50%;
+
     float: left;
+    margin-right: 15px;
+}
+
+section.trending .container section p {
+    color: grey;
 }
