@@ -108,6 +108,18 @@ header .bottom-row .left {
     display: flex;
 }
 
+header .bottom-row .left img {
+    height: 4rem;
+    border-radius: 50%;
+}
+
+header .bottom-row .left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+}
+
 header .bottom-row .right {
     display: flex;
     gap: 20px;
