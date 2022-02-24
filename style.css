@@ -68,6 +68,14 @@ header {
     justify-content: space-around;
 }
 
+header input[type=search] {
+    border: none;
+    border-radius: 50vh;
+    background-color: rgb(226,232,240);
+    height: 2rem;
+    width: 40vw;
+}
+
 header .top-row, header .bottom-row {
     display: flex;
     justify-content: space-between;
@@ -77,6 +85,8 @@ header .top-row .left {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 
 header .top-row .right {
