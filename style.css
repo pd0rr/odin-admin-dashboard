@@ -93,6 +93,7 @@ header .top-row .right {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     gap: 15px;
 }
 
